@@ -1,0 +1,69 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content:space-around;
+  align-items: center;
+   background-color: #FFFFFF;
+   font-family: 'Heebo', Segoe UI,Tahoma, Geneva;
+}
+.footer__list {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 51px 0 26px;
+
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+
+.footer_list_facebook{
+width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+background-image: url("../images/fb.png");
+}
+.footer_list_insta{
+width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+background-image: url("../images/insta.png");
+}
+.footer_list_tweet{
+width: 36.92px;
+  height: 30px;
+  margin-left: 0.08px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+background-image: url("../images/tweet.png");
+}
+.footer_list_lin{
+width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+background-image: url("../images/Linkedin.png");
+}
+.footer__text{
+  margin: 0 auto;
+ font-weight: 400;
+ font-style: regular;
+  font-size: 14px;
+  line-height: 21px;
+}
+.tweet{
+width: 36.92px;
+}

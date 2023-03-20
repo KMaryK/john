@@ -1,0 +1,102 @@
+.recent {
+  /*height: 396px; не нужно задавать высоту в фиусированныз значениях для контейнера.
+  В крайних случаях можно указать минимальную или максимальную*/
+  background-color: #EDF7FA;
+    box-sizing: border-box;
+    padding: 0 148px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    /*flex-direction:isplay: flex; colomn;*/
+    /*flex-wrap: wrap;*/
+    justify-content: flex-start;
+    /*align-content: flex-start;*/
+    /*align-items: center;*/
+}
+.recent__info{
+ display: flex;
+ width: 100%;
+ flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.recent__fof{
+ box-sizing: border-box;
+  padding: 0;
+  margin: 7px 2px 2px;
+ width: 100%;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  text-align: left;
+}
+.recent__fof__view{
+margin-right: 7px;
+  margin-top: 7px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #00A8CC;
+
+}
+.recent__posts{
+ box-sizing: border-box;
+  padding: 0;
+  margin: 7px 7px 32px;
+height: 295px;
+
+  list-style-type: none;
+border-radius: 4px;
+  display: grid;
+  grid-template-columns: 418px;
+}
+.recent__posts__item{
+    background-color: #FFFFFF;
+    padding-left: 23px;
+ /*min-height: 418px;*/
+    padding-right: 21px;
+}
+.recent__posts__text1{
+ font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  text-align: left;
+  /*font-style: Bold;*/
+  color: #21243D;
+}
+.recent__posts__text1-m{
+margin-right: 21px;
+}
+.recent__date{
+display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /*align-items: left;*/
+  list-style-type: none;
+}
+.recent__date__item{
+ font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+}
+.recent__date__item__1{
+padding-right: 23px;
+ border-right: 1px solid #000000;
+}
+.recent__date__item__2{
+padding-left: 26px;
+
+}
+.recent__posts__text2{
+ font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  /*font-style: Regular;*/
+  color: #21243D;
+}
+
+
