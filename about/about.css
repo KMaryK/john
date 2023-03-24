@@ -33,7 +33,7 @@
 }
 
 .content__title:last-of-type {
-      margin-bottom: 40px;
+      margin-bottom: 21px;
 }
 
 .content__text {
@@ -102,7 +102,10 @@
             line-height: 40px;
       }
 
-      .content__text {}
+      .content__text {
+       width: 328px;
+            height: 96px;
+            }
 
       .about__image-container {
             width: 170.86px;
@@ -120,6 +123,6 @@
 
       .about__download {
             margin-bottom: 58px;
-            margin-left: 80px;
+            margin-left: 84px;
       }
 }
