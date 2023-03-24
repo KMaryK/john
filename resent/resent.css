@@ -5,7 +5,7 @@
     box-sizing: border-box;
     padding: 0 148px;
     width: 100%;
-    display: block;
+    display: grid;
     margin: 0 auto;
     /*flex-direction:isplay: flex; colomn;*/
     /*flex-wrap: wrap;*/
@@ -49,8 +49,11 @@ height: 295px;
 
   list-style-type: none;
 border-radius: 4px;
-  display: grid;
-  grid-template-columns: 418px;
+display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ gap: 20px;
 }
 .recent__posts__item{
     background-color: #FFFFFF;
@@ -98,5 +101,29 @@ padding-left: 26px;
   /*font-style: Regular;*/
   color: #21243D;
 }
+@media screen and (max-width: 375px){
+.recent {
+  width: 100%;
+margin: 0 0 0;
+ padding: 0 11px;
+  }
+.recent__fof{
+font-size: 18px;
+  margin: 2px 2px 0px;
+}
+.recent__posts{
+height: 647px;
+  display: grid;
+  grid-template-columns: 354px;
 
+  }
+.recent__posts__text1{
+  font-size: 22px;
+  line-height: 30px;
+}
+.recent__date__item{
+ font-size: 16px;
+  line-height: 24px;
+}
+}
 
