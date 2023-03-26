@@ -32,18 +32,19 @@
 
 .something {
   box-sizing: border-box;
-  padding: 0 148px;
+margin-left: 148px;
   margin-top: 15px;
   font-weight: 400;
   font-size: 22px;
   line-height: 60px;
-  text-align: left;
+ /* text-align: left;/*/
 }
 
 @media screen and (max-width: 375px) {
   .something {
-    text-align: center;
+    /*text-align: center;/*/
     margin-top: 3px;
     font-size: 18px;
+ margin-left: 126px;
   }
 }
