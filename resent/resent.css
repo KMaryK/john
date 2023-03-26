@@ -110,12 +110,16 @@ margin: 0 0 0;
 .recent__fof{
 font-size: 18px;
   margin: 2px 2px 0px;
+    text-align: center;
 }
 .recent__posts{
 height: 647px;
   display: grid;
   grid-template-columns: 354px;
 
+  }
+  .recent__fof__view{
+  display: none;
   }
 .recent__posts__text1{
   font-size: 22px;
