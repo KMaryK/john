@@ -27,17 +27,17 @@
 
   font-family: 'Heebo', Segoe UI, Tahoma, Geneva;
   color: #21243D;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .something {
   box-sizing: border-box;
-margin-left: 148px;
+  margin-left: 148px;
   margin-top: 15px;
   font-weight: 400;
   font-size: 22px;
   line-height: 60px;
- /* text-align: left;/*/
+  /* text-align: left;/*/
 }
 
 @media screen and (max-width: 375px) {
@@ -45,6 +45,6 @@ margin-left: 148px;
     /*text-align: center;/*/
     margin-top: 3px;
     font-size: 18px;
- margin-left: 126px;
+    margin-left: 126px;
   }
 }
